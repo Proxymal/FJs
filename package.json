@@ -1,0 +1,32 @@
+{
+  "name": "fjs",
+  "version": "1.0.0",
+  "description": "front-end javascript framework",
+  "main": "fjs.js",
+  "scripts": {
+    "serve": "parcel ./src/test.html --open -p 8080",
+    "build": "parcel build ./src/js/webbuilder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Proxymal/FJs.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "framework",
+    "sessions",
+    "cookies",
+    "indexeddb",
+    "localdb"
+  ],
+  "author": "Proxymal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Proxymal/FJs/issues"
+  },
+  "homepage": "https://github.com/Proxymal/FJs#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
